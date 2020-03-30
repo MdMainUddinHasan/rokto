@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Mar 30, 2020 at 05:07 AM
+-- Generation Time: Mar 30, 2020 at 07:00 AM
 -- Server version: 10.3.22-MariaDB-cll-lve
 -- PHP Version: 7.3.6
 
@@ -82,36 +82,14 @@ CREATE TABLE `client` (
 --
 
 INSERT INTO `client` (`client_id`, `cl_name`, `email_address`, `contact_number`, `blood_group`, `dob`, `sex`, `city_division`, `location`, `term_condition`, `cl_picture`, `create_date`, `status`) VALUES
-(8, 'মো: লুৎফর রহমান রুবেল', 'rubel.itlive@gmail.com', '01712727574', 'Op', '15/12/1987', 'Male', '2', '', '', '1444579264_598636485.jpg', '11/10/2015', 'Approve'),
-(13, 'Maruf Hossain', 'maruf200100@gmail.com', '01926270248', 'Bp', '01/02/1993', 'Male', '1', '', '', '1476688652_1965600681.jpg', '08/01/2016', 'Approve'),
-(14, 'Mohammad Sazzad Hossain', 'sazzad_hossain_2006@yahoo.com', '01913946907', 'Bp', '05/11/1987', 'Male', '1', '', '', '1491644744_413222555.jpg', '03/05/2016', 'Approve'),
-(15, 'Fayez Mahmud', 'seojames@gmail.com', '01712098875', 'Op', '16/09/1986', 'Male', '1', '2', '', '', '16/10/2016', 'Approve'),
-(17, 'Moniruzzaman', 'm.mzaman99@gmail.com', '8801911411182', 'Ap', '30/10/1986', 'Male', '1', '33', '', '1491555433_43202140.jpg', '07/04/2017', 'Approve'),
-(18, 'Mohammad Mahbubul Alam', 'mahboob_1215@yahoo.com', '01819060198', 'Bp', '15/01/1980', 'Male', '1', '45', '', '1491555840_2064957623.jpg', '07/04/2017', 'Approve'),
-(19, 'sehreen rahman', 'sehreen091@gmail.com', '01956312839', 'Bn', '07/02/1993', 'Female', '11', '225', '', '1492784103_1058650823.jpg', '21/04/2017', 'Approve'),
-(20, 'Riajul Islam', 'riajulriat@gmail.com', '01712073655', 'ABp', '13/10/1987', 'Male', '1', '8', '', '1492926846_2085890389.jpg', '23/04/2017', 'Approve'),
-(21, 'Abdul Gofur', 'gofurislam0@gmail.com', '01876859690', 'Op', '08/05/1993', 'Male', '7', '173', '', '1494340760_1188477018.jpg', '09/05/2017', 'Approve'),
-(22, 'Tania Akter', 'etaniaa26@gmail.com', '01947459545', 'Op', '26/10/1994', 'Female', '1', '42', '', '1494344064_810124766.jpg', '09/05/2017', 'Approve'),
-(23, 'Monim Hasan', 'monimcsepl7@gmail.com', '01956737734', 'ABp', '25/11/1994', 'Male', '1', '42', '', '1494348154_1488545095.JPG', '09/05/2017', 'Approve'),
-(24, 'Md.Aminul islam', 'aminulcu23@gmail.com', '01763068840', 'Bp', '01/03/1994', 'Male', '12', '235', '', '', '10/05/2017', 'Approve'),
-(25, 'md rubel shek', 'rubelcse200@gmail.com', '01916971553', 'Bp', '09/05/2017', 'Male', '1', '42', '', '1494435886_314521836.jpg', '10/05/2017', 'Approve'),
-(26, 'imrul islam', 'imrulislam36@gmail.com', '01727887061', 'An', '29/09/1992', 'Male', '1', '23', '', '1494440714_1076872840.jpg', '10/05/2017', 'Approve'),
-(27, 'Masrura Fardus Joya', 'joyaripon@gmail.com', '01798366246', 'Ap', '06/06/1993', 'Female', '1', '3', '', '', '10/05/2017', 'Approve'),
-(28, 'mamunur', 'mrashid90@gmail.com', '01822132222', 'Bp', '08/05/1990', 'Male', '1', '42', '', '', '12/05/2017', 'Approve'),
-(29, 'Ashraful Alam', 'ashraful23567@gmail.com', '01760382454', 'Ap', '10/03/1996', 'Male', '1', '46', '', '', '13/05/2017', 'Approve'),
-(30, 'Al-Amin Hossain', 'alamincse84@gmail.com', '01515206638', 'Op', '24/05/1994', 'Male', '1', '42', '', '1495548424_1454590554.jpg', '23/05/2017', 'Approve'),
-(31, 'MD:Jewel Rana', 'jewelcse77@gmail.com', '01782047307', 'Bp', '12/03/1994', 'Male', '1', '42', '', '1495549445_1599463046.jpg', '23/05/2017', 'Approve'),
-(32, 'Mahmudul Hasan Riyad', 'hasanmu970@gmail.com', '01767926511', 'Ap', '24/05/1995', 'Male', '1', '42', '', '1495550170_634531127.jpg', '23/05/2017', 'Approve'),
-(33, 'Md shoriful islam', 'mdshorif581992@gmail.com', '01930854815', 'Op', '05/08/1992', 'Male', '11', '228', '', '1495550440_480171390.jpg', '23/05/2017', 'Approve'),
-(34, 'Rabiul Sabbir', 'rabiulahammad@gmail.com', '01716739091', 'Bp', '14/10/1992', 'Male', '1', '6', '', '', '23/05/2017', 'Approve'),
-(35, 'Md.Monirul Islam', 'monirsamicse@gmail.com', '01830430883', 'Ap', '27/12/1992', 'Male', '1', '42', '', '', '23/05/2017', 'Approve'),
-(36, 'Al-Amin Hossain', 'ahacse32@gmail.com', '1771127402', 'Op', '01/12/1994', 'Male', '1', '42', '', '1495588952_1838472272.jpg', '23/05/2017', 'Approve'),
-(37, 'Sujan Hasan (শর্ত) ', 'sorto2003@gmail.com', '01949752003', 'Bp', '22/08/1993', 'Male', '1', '9', '', '1495966147_1867087072.jpg', '28/05/2017', 'Approve'),
-(38, 'Atiqul Islam', 'atiqul044@gmail.com', '01917090780', 'Op', '01/09/1992', 'Male', '1', '42', '', '1496324820_286262773.PNG', '01/06/2017', 'Approve'),
-(39, 'Tanjid Bappu', 'tanjidbappu00@gmail.com', '01633634545', 'Ap', '03/06/1991', 'Male', '1', '42', '', '1496395664_1845404478.jpg', '02/06/2017', 'Approve'),
-(40, 'Md Kamal Hosen', 'kamalcu2@gmail.com', '01686581458', 'Bp', '02/06/1992', 'Male', '1', '42', '', '1496411908_1301468727.jpg', '02/06/2017', 'Approve'),
-(41, 'Md. Imran Hossain', 'mdimranhossain985@gmail.com', '01771045019', 'Op', '05/10/1994', 'Male', '1', '42', '', '1496763298_7967397.jpg', '06/06/2017', 'Approve'),
-(42, 'Robin', 'mmd.robin103@yahoo.com', '01759519737', 'Ap', '07/06/1997', 'Male', '1', '46', '', '', '07/06/2017', 'Approve');
+(47, 'Md. Main Uddin Hasan ', 'mainuddinhasan04@gmail.com', '01620848954', 'Ap', '04/06/1998', 'Male', '1', '9', '', '', '30/03/2020', 'Approve'),
+(48, 'Fouzia Rahman Sara', 'sarafouzia35@gmail.com', '01869533114', 'Ap', '06/02/2000', 'Female', '1', '40', '', '', '30/03/2020', 'Approve'),
+(49, 'Nowrin Nahar Tushi', 'nowrinnahartushi9@gmail.com', '01775037679', 'Op', '10/01/2000', 'Female', '1', '14', '', '1585563834_170921070.jpeg', '30/03/2020', 'Approve'),
+(50, 'Galib', 'Galibashraf333@gmail.com', '01717433597', 'Op', '02/03/1995', 'Male', '1', '39', '', '', '30/03/2020', 'Approve'),
+(51, 'Ratul Alam', 'ratulalam96@gmail.com', '01875955705', 'Bp', '21/01/2000', 'Male', '9', '207', '', '1585564014_1492727921.png', '30/03/2020', 'Approve'),
+(52, 'Farhan Hossen', 'farhan141549@gmail.com', '01705681815', 'ABp', '27/09/2000', 'Male', '1', '1', '', '', '30/03/2020', 'Approve'),
+(53, 'Avinandan Banerjee', 'avinandan.3011@gmail.com', '01928869916', 'Bp', '30/11/2001', 'Male', '1', '23', '', '', '30/03/2020', 'Pending'),
+(54, 'Hasnat', 'hasnat123@gmail.com', '01731283938', 'Op', '30/03/1994', 'Male', '1', '8', '', '', '30/03/2020', 'Pending');
 
 -- --------------------------------------------------------
 
@@ -484,7 +462,7 @@ ALTER TABLE `city_division`
 -- AUTO_INCREMENT for table `client`
 --
 ALTER TABLE `client`
-  MODIFY `client_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=47;
+  MODIFY `client_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=55;
 
 --
 -- AUTO_INCREMENT for table `location`
